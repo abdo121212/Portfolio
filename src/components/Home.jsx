@@ -1,7 +1,7 @@
 import React from "react";
 import Giga from "../images/giga.jpg";
 import { MdArrowRight } from "react-icons/md";
-import {Link} from 'react-scroll'
+import { Link } from "react-scroll";
 const Home = () => {
   return (
     <>
@@ -20,10 +20,15 @@ const Home = () => {
               Tailwind , Node Js And GraphQl
             </p>
             <div>
-              <Link to="portfolio" smooth duration={500} className="group text-white flex  items-center w-1/4 bg-gradient-to-r from-cyan-500 mx-auto  to-blue-500 cursor-pointer rounded-md my-2 px-6 py-3">
+              <Link
+                to="portfolio"
+                smooth
+                duration={500}
+                className="group text-white flex items-center w-1/4 bg-gradient-to-r from-cyan-500 mx-auto  to-blue-500 cursor-pointer rounded-md my-2 px-5 py-3"
+              >
                 Portfolio
                 <span className="group-hover:rotate-90 duration-300">
-                  <MdArrowRight size={25} />
+                  <MdArrowRight size={22} />
                 </span>
               </Link>
             </div>
