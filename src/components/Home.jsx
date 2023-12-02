@@ -9,22 +9,17 @@ const Home = () => {
         name="home"
         className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800  "
       >
-        <div className="max-w-screen-lg mx-auto  flex flex-col justify-center  items-center h-full px-4 md:flex-row">
-          <div className="flex flex-col justify-center h-full pt-36  sm:text-center">
-            <h1 className="text-4xl  font-bold md:text-7xl text-white ">
+        <div className="  max-w-screen-lg mx-auto  flex flex-col justify-center  items-center h-full px-4 md:flex-row">
+          <div className="flex flex-col justify-center items-center h-full  sm:text-center hidden lg:flex ">
+            <h1 className="text-4xl  font-bold md:text-7xl text-white  py-10">
               I'm a Full Stack Developer
             </h1>
-            <p className="text-gray-500 py-4 max-w-md">
-              I'm have one experince building and designing software . Currently
-              , I love to work on web appliation using technologies like React ,
-              Tailwind , Node Js And GraphQl
-            </p>
             <div>
               <Link
                 to="portfolio"
                 smooth
                 duration={500}
-                className="group text-white flex items-center w-1/4 bg-gradient-to-r from-cyan-500 mx-auto  to-blue-500 cursor-pointer rounded-md my-2 px-5 py-3"
+                className="group  text-white flex items-center w-10/12 bg-gradient-to-r from-cyan-500 mx-auto  to-blue-500 cursor-pointer rounded-md my-2 px-6 py-3 "
               >
                 Portfolio
                 <span className="group-hover:rotate-90 duration-300">

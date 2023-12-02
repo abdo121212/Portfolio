@@ -12,7 +12,7 @@ const SocialLinks = () => {
           Linked In <FaLinkedin size={30} />
         </>
       ),
-      href: "https://www.linkedin.com",
+      href: "https://www.linkedin.com/in/عبدالله-عاطف-a70698242",
       style: "rounded-tr-md",
     },
 
@@ -41,7 +41,7 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "./../../public/Resume_Abdallah_New.pdf",
+      href: "./Resume_Abdallah_New.pdf",
       style: "rounded-br-md",
       download: true,
     },
@@ -70,14 +70,7 @@ const SocialLinks = () => {
               </a>
             </li>
           ))}
-          {/* <li className="flex justify-between items-center w-40 h-14 rounded-md px-4 ml-[-100px] hover:ml-[-10px] duration-300 text-white  bg-gray-500 ">
-            <a
-              className=" flex  justify-between items-center w-full"
-              href="https://github.com/"
-            >
-              Linked In <FaLinkedin size={30} />
-            </a>
-          </li> */}
+       
         </ul>
       </div>
     </>
