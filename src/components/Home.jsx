@@ -7,11 +7,11 @@ const Home = () => {
     <>
       <section
         name="home"
-        className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800  "
+        className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 "
       >
-        <div className="  max-w-screen-lg mx-auto  flex flex-col justify-center  items-center h-full px-4 md:flex-row">
-          <div className="flex flex-col justify-center items-center h-full  sm:text-center hidden lg:flex ">
-            <h1 className="text-4xl  font-bold md:text-7xl text-white  py-10">
+        <div className="  max-w-screen-lg mx-auto  flex flex-col justify-center  items-center h-full px-4 md:flex-row ">
+          <div className=" flex-col justify-center items-center h-full hidden lg:flex ">
+            <h1 className="text-4xl  font-bold md:text-7xl text-white py-10">
               I'm a Full Stack Developer
             </h1>
             <div>
@@ -19,7 +19,7 @@ const Home = () => {
                 to="portfolio"
                 smooth
                 duration={500}
-                className="group  text-white flex items-center w-10/12 bg-gradient-to-r from-cyan-500 mx-auto  to-blue-500 cursor-pointer rounded-md my-2 px-6 py-3 "
+                className="group ml-4 text-white flex items-center w-10/12 bg-gradient-to-r from-cyan-500 mx-auto  to-blue-500 cursor-pointer rounded-md my-2 px-6 py-3 "
               >
                 Portfolio
                 <span className="group-hover:rotate-90 duration-300">
@@ -32,7 +32,7 @@ const Home = () => {
             <img
               src={Giga}
               alt="my profile"
-              className="rounded-3xl   mx-auto w-3/4 md:w-5/6 "
+              className="rounded-3xl max-sm:p-10 max-lg:w-[500px] max-sm:rounded-[50px]"
             />
           </div>
         </div>

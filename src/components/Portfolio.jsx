@@ -18,37 +18,25 @@ const Portfolio = () => {
     <>
       <div
         name="portfolio"
-        className="bg-gradient-to-b from-black to-gray-800 w-full  text-white py-20"
+        className="bg-gradient-to-b from-black to-gray-800 w-full  text-white py-20 px-32"
       >
-        <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full  h-full">
-          <div className="pb-8 sm:text-center lg:pt-36">
-            <p className="text-4xl font-bold inline border-b-4  border-gray-500 ">
-              Portfolio
-            </p>
-            <p className="py-6">Check out some of my work right here</p>
-          </div>
-          <div
-            
-            className=" grid sm:grid-cols-2 md:grid-cols-3 gap-8 px12 sm:p-20 "
-          >
+        <div className="text-center">
+          <p className="text-3xl font-bold border-b-4 inline ">Portfolio</p>
+          <p className="py-3">Check out some of my work right here </p>
+        </div>
 
-{protfolios.map(({ id, src }) => (
-            <div key={id} className="shadow-md shadow-gray-600 rounded-lg  duration-300 hover:scale-105">
-              <img src={src} className="rounded-md" alt="mypicture" />
-              <div className="flex justify-center items-center ">
-                <button className="w-1/2 px-6 py-3 m-4 ">
-                  Demo
-                </button>
-                <button className="w-1/2 px-6 py-3 m-4 ">
-                  Code
-                </button>
+        <div className="grid max-sm:grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 py-3 px-10 ">
+          {protfolios.map(({ id, src }) => (
+            <div className=" flex justify-center items-center ">
+              <div className=" shadow-md shadow-gray-100 rounded-md   duration-300 hover:scale-105">
+                <img src={src} className="w-[350px] rounded-md  " alt="Giga" />
+                <div className="flex justify-between items-center  cursor-pointer">
+                  <button className="p-4 font-bold ">Demo</button>
+                  <button className="p-4 font-bold ">Code</button>
+                </div>
               </div>
             </div>
           ))}
-
-          </div>
-
-         
         </div>
       </div>
     </>

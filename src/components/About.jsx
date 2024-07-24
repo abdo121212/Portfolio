@@ -5,10 +5,10 @@ const About = () => {
     <>
       <div
         name="about"
-        className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white   sm:text-center "
+        className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white sm:text-center max-sm:py-40 max-sm:pt-10"
       >
-        <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center   w-full h-full ">
-          <div className="pb-8  py-40">
+        <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center  w-full h-full  ">
+          <div className="py-5 ">
             <p className="text-4xl font-bold   border-b-4 inline  border-gray-500">
               About
             </p>
