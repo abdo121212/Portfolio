@@ -9,17 +9,22 @@ const About = () => {
       >
         <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center  w-full h-full  ">
           <div className="py-5 ">
-            <p className="text-4xl font-bold   border-b-4 inline  border-gray-500">
+            <p
+              data-aos="fade-left"
+              className="text-4xl font-bold   border-b-4 inline  border-gray-500"
+            >
               About
             </p>
           </div>
-          <p className="text-lg">
+          <p data-aos="fade-up" className="text-lg">
             I'm have one experince building and designing software . Currently ,
             I love to work on web appliation using technologies like React ,
             Tailwind , Node Js And GraphQl
           </p>
           <br />
-          <p className="text-lg ">
+          <p
+          data-aos="fade-right"
+          className="text-lg ">
             I have had the enriching experience of building and designing
             software, and my current passion lies in the realm of web
             application development. Over time, I have honed my skills and

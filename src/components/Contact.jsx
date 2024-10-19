@@ -8,10 +8,17 @@ const Contact = () => {
     >
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full ">
         <div className="pb-8 text-center ">
-          <p className="text-4xl font-bold  border-b-4 inline border-gray-500 ">
+          <p
+            data-aos="fade-down"
+            className="text-4xl font-bold  border-b-4 inline border-gray-500 "
+          >
             Contact
           </p>
-          <p className="py-6">Submit the form below to get in touch with me </p>
+          <p
+          
+          data-aos="flip-down"
+          
+          className="py-6">Submit the form below to get in touch with me </p>
         </div>
         <div className=" flex justify-center items-center">
           <form
@@ -20,24 +27,34 @@ const Contact = () => {
             className="flex flex-col w-full md:w-1/2"
           >
             <input
+            data-aos="fade-left"
+            
               type="text"
               name="name"
               placeholder="Enter Your Name"
               className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-inherit "
             />
             <input
+            data-aos="fade-right"
+
               type="text"
               name="email "
               placeholder="Enter Your Email "
               className="p-2 my-6 bg-transparent border-2 rounded-md text-white focus:outline-inherit "
             />
             <textarea
+            data-aos="fade-left"
+
               placeholder="Enter Your Message "
               name="message"
               className="p-2 bg-transparent  focus:outline-inherit  focus:outline-none border-2 rounded-md text-white"
               rows="10"
             ></textarea>
-            <button className="bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 rounded-md text-white my-8 hover:scale-110 duration-300 mx-auto flex items-center">
+            <button
+            
+            data-aos="fade-right"
+            
+            className="bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 rounded-md text-white my-8 hover:scale-110 duration-300 mx-auto flex items-center">
               let's talk
             </button>
           </form>

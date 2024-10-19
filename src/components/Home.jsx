@@ -11,10 +11,18 @@ const Home = () => {
       >
         <div className="  max-w-screen-lg mx-auto  flex flex-col justify-center  items-center h-full px-4 md:flex-row ">
           <div className=" flex-col justify-center items-center h-full hidden lg:flex ">
-            <h1 className="text-4xl  font-bold md:text-7xl text-white py-10">
+            <h1
+              data-aos="fade-up"
+              className="text-4xl  font-bold md:text-7xl text-white py-10"
+            >
               I'm a Full Stack Developer
             </h1>
-            <div>
+            <div 
+
+            data-aos="fade-left"
+            
+            
+            >
               <Link
                 to="portfolio"
                 smooth
@@ -28,7 +36,7 @@ const Home = () => {
               </Link>
             </div>
           </div>
-          <div>
+          <div data-aos="zoom-in-up">
             <img
               src={Giga}
               alt="my profile"

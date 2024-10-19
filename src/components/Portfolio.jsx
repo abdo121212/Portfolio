@@ -21,14 +21,24 @@ const Portfolio = () => {
         className="bg-gradient-to-b from-black to-gray-800 w-full  text-white py-20 px-32"
       >
         <div className="text-center">
-          <p className="text-3xl font-bold border-b-4 inline ">Portfolio</p>
-          <p className="py-3">Check out some of my work right here </p>
+          <p
+            data-aos="fade-left"
+            className="text-3xl font-bold border-b-4 inline "
+          >
+            Portfolio
+          </p>
+          <p data-aos="flip-left" className="py-3">
+            Check out some of my work right here{" "}
+          </p>
         </div>
 
         <div className="grid max-sm:grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 py-3 px-10 ">
           {protfolios.map(({ id, src }) => (
-            <div className=" flex justify-center items-center ">
-              <div className=" shadow-md shadow-gray-100 rounded-md   duration-300 hover:scale-105">
+            <div
+              data-aos="zoom-in-left"
+              className="flex justify-center items-center"
+            >
+              <div className=" shadow-md shadow-gray-100 rounded-md duration-300 hover:scale-105">
                 <img src={src} className="w-[350px] rounded-md  " alt="Giga" />
                 <div className="flex justify-between items-center  cursor-pointer">
                   <button className="p-4 font-bold ">Demo</button>

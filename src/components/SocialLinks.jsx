@@ -12,7 +12,7 @@ const SocialLinks = () => {
           Linked In <FaLinkedin size={30} />
         </>
       ),
-      href: "https://www.linkedin.com/in/عبدالله-عاطف-a70698242",
+      href: "https://www.linkedin.com/in/abdallah-atef-a70698242/",
       style: "rounded-tr-md",
     },
 
@@ -41,7 +41,7 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "./Resume_Abdallah_New.pdf",
+      href: "../../public/shopsy.pdf",
       style: "rounded-br-md",
       download: true,
     },
@@ -50,9 +50,9 @@ const SocialLinks = () => {
     <>
       <div className="flex flex-col top-[35%] left-0 fixed ">
         <ul>
-          {links.map(({ id, child, href, style  ,download}) => (
+          {links.map(({ id, child, href, style, download }) => (
             <li
-            key={id} 
+              key={id}
               className={
                 "hidden lg:flex justify-between items-center w-40 h-14 rounded-md px-4 ml-[-100px] hover:ml-[-10px] duration-300 text-white  bg-gray-500" +
                 "" +
@@ -62,7 +62,7 @@ const SocialLinks = () => {
               <a
                 href={href}
                 className=" flex  justify-between items-center w-full"
-                download={download} 
+                download={download}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -70,7 +70,6 @@ const SocialLinks = () => {
               </a>
             </li>
           ))}
-       
         </ul>
       </div>
     </>
