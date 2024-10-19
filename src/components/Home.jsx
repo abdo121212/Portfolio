@@ -15,14 +15,9 @@ const Home = () => {
               data-aos="fade-up"
               className="text-4xl  font-bold md:text-7xl text-white py-10"
             >
-              I'm a Full Stack Developer
+              I'm a Front-End Developer
             </h1>
-            <div 
-
-            data-aos="fade-left"
-            
-            
-            >
+            <div data-aos="fade-left">
               <Link
                 to="portfolio"
                 smooth
