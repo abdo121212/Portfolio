@@ -13,7 +13,7 @@ function App() {
   useEffect(() => {
     AOS.init({
       offset: 100,
-      duration: 800,
+      duration: 1000,
       easing: "ease-in-sine",
       delay: 100,
     });
@@ -24,9 +24,11 @@ function App() {
       <Navbar />
       <Home />
       <About />
-      <Portfolio />
       <Experience />
+      <Portfolio />
+
       <Contact />
+
       <SocialLinks />
     </>
   );

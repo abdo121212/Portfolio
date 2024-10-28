@@ -7,6 +7,9 @@ import mongo from "../images/mongo.png";
 import node from "../images/node.png";
 import react from "../images/react.png";
 import tailwind from "../images/tailwind.png";
+import css from "../images/unnamed.webp";
+import bootstrap from "../images/Bootstrap_logo.svg.png";
+import figma from "../images/images.png";
 
 const Experience = () => {
   const techs = [
@@ -18,39 +21,38 @@ const Experience = () => {
     { id: 7, src: node, title: "Node JS", style: "shadow-green-700" },
     { id: 8, src: react, title: "React", style: "shadow-blue-900" },
     { id: 9, src: tailwind, title: "Tailwind", style: "shadow-blue-300" },
+    { id: 10, src: css, title: "Css", style: "shadow-[#fb9e00]" },
+    { id: 11, src: bootstrap, title: "Bootstrap", style: "shadow-[#810af9]" },
+    { id: 12, src: figma, title: "figma", style: "shadow-[#ffffff]" },
   ];
   return (
-    <>
+    <section
+      className="bg-gradient-to-b from-black to-gray-800 w-full  py-20  max-lg:pt-[300px] max-md:pt-[450px] max-sm:pt-[600px]"
+      name="experience"
+    >
       <div
-        name="experience"
-        className="bg-gradient-to-b from-gray-800 to-black w-full h-screen max-sm:pt-2 "
+        data-aos="fade-up"
+        className="mx-auto p-4 flex flex-col justify-center w-full h-full text-white  container px-10 "
       >
-        <div
-          data-aos="fade-down"
-          data-aos-easing="linear"
-          data-aos-duration="1500"
-          className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white"
-        >
-          <div className=" sm:text-center">
-            <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
-              Experience
-            </p>
-            <p className="py-6"> These are the technologies i've worked with</p>
-          </div>
-          <div className="w-full grid grid-cols-2  max-szm:grid-cols-1 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
-            {techs.map(({ id, src, title, style }) => (
-              <div
-                key={id}
-                className={`shadow-md hover:scale-105 duration-500 py-2 rounded-md ${style}`}
-              >
-                <img className="w-20 mx-auto" src={src} alt="" />
-                <p className="mt-4">{title}</p>
-              </div>
-            ))}
-          </div>
+        <div className=" sm:text-center">
+          <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
+            Experience
+          </p>
+          <p className="py-6"> These are the technologies i've worked with</p>
+        </div>
+        <div className="w-full grid max-lg:grid-cols-2  max-sm:grid-cols-1  lg:grid-cols-3  gap-8 text-center py-8 px-12 ">
+          {techs.map(({ id, src, title, style }) => (
+            <div
+              key={id}
+              className={`shadow-md hover:scale-105 duration-500 py-2 rounded-md ${style}`}
+            >
+              <img className="w-20 mx-auto" src={src} alt="" />
+              <p className="mt-4">{title}</p>
+            </div>
+          ))}
         </div>
       </div>
-    </>
+    </section>
   );
 };
 
