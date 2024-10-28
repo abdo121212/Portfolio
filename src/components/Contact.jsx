@@ -1,7 +1,5 @@
 import React from "react";
-import { AiFillProject } from "react-icons/ai";
-import { FaAward, FaMailBulk, FaVoicemail, FaWhatsapp } from "react-icons/fa";
-import { FiUsers } from "react-icons/fi";
+import { FaMailBulk,  FaWhatsapp } from "react-icons/fa";
 
 const Contact = () => {
   return (
