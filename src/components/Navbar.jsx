@@ -1,19 +1,21 @@
-import React, { useState } from "react";
+import React, {  useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
 const Navbar = () => {
   const [nav, setNav] = useState(false);
+  const [activeLink, setActiveLink] = useState("home");
 
   const links = [
     { id: 1, link: "home" },
     { id: 2, link: "about" },
-    { id: 3, link: "portfolio" },
     { id: 4, link: "experience" },
+    { id: 3, link: "portfolio" },
     { id: 5, link: "contact" },
   ];
+
   return (
     <>
-      <div className="fixed w-full z-[555]">
+      <div className="fixed w-full z-[555]" x>
         <div className="flex justify-between items-center  h-16 px-4 text-white bg-gradient-to-bl from-black to-gray-800 z-50 py-3">
           <h1
             data-aos="fade-up"
@@ -26,9 +28,19 @@ const Navbar = () => {
               <li
                 data-aos="fade-right"
                 key={id}
-                className={`px-4 cursor-pointer capitalize text-gray-500 font-medium hover:text-gray-200 hover:scale-105  duration-200`}
+                className={`px-4 cursor-pointer capitalize text-gray-500 font-medium hover:text-gray-200 hover:scale-105`}
               >
-                <Link to={link} smooth duration={500}>
+                <Link
+                  onClick={() => {
+                    setActiveLink(link);
+                  }}
+                  to={link}
+                  smooth
+                  duration={500}
+                  className={`duration-700  ${
+                    activeLink === link ? "activeLink" : ""
+                  }`}
+                >
                   {link}
                 </Link>
               </li>
@@ -38,7 +50,7 @@ const Navbar = () => {
             onClick={() => {
               setNav(!nav);
             }}
-            className="cursor-pointer text-gray-500 pr-4 z-[10]  md:hidden "
+            className="cursor-pointer text-gray-500 pr-4 z-[10] md:hidden"
           >
             {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
           </div>

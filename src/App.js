@@ -26,9 +26,7 @@ function App() {
       <About />
       <Experience />
       <Portfolio />
-
       <Contact />
-
       <SocialLinks />
     </>
   );

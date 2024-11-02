@@ -27,7 +27,7 @@ const Experience = () => {
   ];
   return (
     <section
-      className="bg-gradient-to-b from-black to-gray-800 w-full  py-20  max-lg:pt-[300px] max-md:pt-[450px] max-sm:pt-[600px]"
+      className="bg-gradient-to-b from-black to-gray-800 w-full  py-20"
       name="experience"
     >
       <div
@@ -35,7 +35,7 @@ const Experience = () => {
         className="mx-auto p-4 flex flex-col justify-center w-full h-full text-white  container px-10 "
       >
         <div className=" sm:text-center">
-          <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
+          <p className="text-4xl font-bold border-b-4 border-cyan-400 rounded-2xl px-4 p-2 inline">
             Experience
           </p>
           <p className="py-6"> These are the technologies i've worked with</p>

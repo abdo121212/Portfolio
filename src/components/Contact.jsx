@@ -1,5 +1,5 @@
 import React from "react";
-import { FaMailBulk,  FaWhatsapp } from "react-icons/fa";
+import { FaMailBulk, FaWhatsapp } from "react-icons/fa";
 
 const Contact = () => {
   return (
@@ -10,7 +10,7 @@ const Contact = () => {
       <div className="pb-8 text-center ">
         <p
           data-aos="fade-up"
-          className="text-4xl font-bold  border-b-4 inline border-gray-500 "
+          className="text-4xl font-bold  border-b-4 inline border-cyan-400 rounded-2xl px-4 "
         >
           Contact
         </p>
@@ -19,7 +19,7 @@ const Contact = () => {
         </p>
       </div>
 
-      <div className="flex flex-row p-4 justify-center items-center max-w-screen-lg mx-auto gap-6 max-md:flex-col">
+      <div className="flex flex-row p-4 justify-center items-center max-w-screen-lg mx-auto gap-6 max-lg:flex-col">
         <div className=" flex justify-center items-center w-3/4">
           <form
             action="https://getform.io/f/184edfe2-14eb-4128-8a67-a3467847a450"
@@ -30,10 +30,12 @@ const Contact = () => {
               data-aos="fade-up"
               type="text"
               name="name"
+              required
               placeholder="Enter Your Name"
               className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-inherit "
             />
             <input
+              required
               data-aos="fade-up"
               type="text"
               name="email "
@@ -41,6 +43,7 @@ const Contact = () => {
               className="p-2 my-6 bg-transparent border-2 rounded-md text-white focus:outline-inherit "
             />
             <textarea
+              required
               data-aos="fade-up"
               placeholder="Enter Your Message "
               name="message"
@@ -78,7 +81,7 @@ const Contact = () => {
             <FaWhatsapp size={30} className="text-white justify-center " />
             <h4 className="font-bold text-xl">WhatsApp</h4>
             <a
-              href="https://api.whatsapp.com/send?phone=+201093939204"
+              href="https://api.whatsapp.com/send?phone=+201067580075"
               target="blank"
               className="duration-500 hover:scale-110 hover:font-bold hover:text-teal-400"
             >

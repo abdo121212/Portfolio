@@ -12,3 +12,28 @@
 
 
 
+.active {
+    @apply bg-cyan-400  border-cyan-600 border-2  opacity-100 
+}
+
+
+
+.activeLink{
+    @apply  text-gray-200 
+}
+
+
+.typing-text {
+    display: inline-block;
+    animation: typing 4s  infinite;
+  }
+  
+
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }

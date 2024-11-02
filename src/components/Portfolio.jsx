@@ -11,24 +11,6 @@ import usestate from "../images/project/usestate.jpg";
 const Portfolio = () => {
   const protfolios = [
     {
-      id: 1,
-      src: weather,
-      title: `I developed a weather application using React that fetches real-time weather data, displays
-      forecasts, and provides location-based weather updates with an intuitive user interface`,
-      linkGitHub: "https://github.com/abdo121212/Weather-App",
-      linkLive: "https://abdo121212.github.io/Weather-App/",
-    },
-    {
-      id: 7,
-      src: reactSmooth,
-      title: `A React-based animation library that offers smooth, customizable transitions for UI elements.`,
-    },
-    {
-      id: 8,
-      src: usestate,
-      title: `useState is a hook that allows you to add state to functional components.`,
-    },
-    {
       id: 2,
       src: loadingScreen,
       title: `I worked on a project that focused on creating a dynamic loading screen for applications. It
@@ -56,6 +38,24 @@ pricing, and descriptions, along with store locations and positions. The interfa
 for easy navigation and information accessInitiated 4 tasks using the EDF scheduler. `,
       linkGitHub: "https://github.com/abdo121212/Bakery",
       linkLive: "https://abdo121212.github.io/Bakery/",
+    },
+    {
+      id: 1,
+      src: weather,
+      title: `I developed a weather application using React that fetches real-time weather data, displays
+      forecasts, and provides location-based weather updates with an intuitive user interface`,
+      linkGitHub: "https://github.com/abdo121212/Weather-App",
+      linkLive: "https://abdo121212.github.io/Weather-App/",
+    },
+    {
+      id: 7,
+      src: reactSmooth,
+      title: `A React-based animation library that offers smooth, customizable transitions for UI elements.`,
+    },
+    {
+      id: 8,
+      src: usestate,
+      title: `useState is a hook that allows you to add state to functional components.`,
     },
 
     {
@@ -97,7 +97,7 @@ content interactively on various screen sizes.`,
         <div className="text-center">
           <p
             data-aos="fade-up"
-            className="text-3xl font-bold border-b-4 inline "
+            className="text-3xl font-bold border-b-4  border-cyan-400 inline rounded-2xl px-4 "
           >
             Portfolio
           </p>
