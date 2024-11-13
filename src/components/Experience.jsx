@@ -35,7 +35,7 @@ const Experience = () => {
         className="mx-auto p-4 flex flex-col justify-center w-full h-full text-white  container px-10 "
       >
         <div className=" sm:text-center">
-          <p className="text-4xl font-bold border-b-4 border-cyan-400 rounded-2xl px-4 p-2 inline">
+          <p className="text-4xl font-bold border-b-4 border-cyan-400 rounded-2xl px-4 p-2 inline  max-md:text-xl">
             Experience
           </p>
           <p className="py-6"> These are the technologies i've worked with</p>

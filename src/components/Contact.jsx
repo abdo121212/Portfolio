@@ -10,7 +10,7 @@ const Contact = () => {
       <div className="pb-8 text-center ">
         <p
           data-aos="fade-up"
-          className="text-4xl font-bold  border-b-4 inline border-cyan-400 rounded-2xl px-4 "
+          className="text-4xl font-bold  border-b-4 inline border-cyan-400 rounded-2xl px-4  max-w-[10px]"
         >
           Contact
         </p>

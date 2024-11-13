@@ -94,16 +94,11 @@ content interactively on various screen sizes.`,
         name="portfolio"
         className="bg-gradient-to-b from-gray-800 to-black w-full  text-white py-10 px-32"
       >
-        <div className="text-center">
-          <p
-            data-aos="fade-up"
-            className="text-3xl font-bold border-b-4  border-cyan-400 inline rounded-2xl px-4 "
-          >
-            Portfolio
+        <div className=" sm:text-center">
+          <p className="text-4xl font-bold border-b-4 border-cyan-400 rounded-2xl px-4 p-2 inline  max-md:text-xl">
+            Experience
           </p>
-          <p data-aos="fade-up" className="py-3">
-            Check out some of my work right here{" "}
-          </p>
+          <p className="py-6 w-fit max-sm:text-[12px]"> These are the technologies i've worked with</p>
         </div>
 
         <div className="grid max-lg:grid-cols-2  max-lg:gap-x-10 max-md:grid-cols-1  lg:grid-cols-3 gap-10 py-3 px-10 ">
