@@ -29,6 +29,8 @@
   }
   
 
+
+  
   @keyframes typing {
     from {
       width: 0;
@@ -37,3 +39,33 @@
       width: 100%;
     }
   }
+
+
+
+
+
+
+
+
+  
+.animated-wrapper {
+  animation-name: move-wrapper;
+  animation-duration: 25s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes move-wrapper {
+  0% {
+    transform: translate(150%, 30%) rotate(0) scale(0.8);
+  }
+
+  0% {
+    transform: translate(60vw, 0) rotate(150deg) scale(1.2);
+  }
+
+  0% {
+    transform: translate(40vw, 40vh) rotate(0) scale(0.8);
+  }
+}

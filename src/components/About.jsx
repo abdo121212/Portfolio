@@ -248,15 +248,14 @@ const About = () => {
     <>
       <section
         name="about"
-        className="w-full bg-gradient-to-b from-gray-800 to-black  text-white py-20 "
+        className="w-full bg-gradient-to-b from-gray-800 to-black text-white py-20"
       >
         <div className="max-w-screen-lg  flex flex-col container px-10 mx-auto">
-      
           <div className=" sm:text-center py-5">
-          <p className="text-4xl font-bold border-b-4 border-cyan-400 rounded-2xl px-4 p-2 inline  max-md:text-xl">
-          About
-          </p>
-        </div>
+            <p className="text-4xl font-bold border-b-4 border-cyan-400 rounded-2xl px-4 p-2 inline  max-md:text-xl">
+              About
+            </p>
+          </div>
 
           <div className="flex justify-center items-cneter gap-5 max-md:space-y-5  max-md:flex-col">
             <div className="w-[40%] max-md:w-full flex justify-start items-stjustify-start  flex-col">

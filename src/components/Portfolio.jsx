@@ -8,6 +8,8 @@ import slider from "../images/project/Slider.bmp";
 import reactSmooth from "../images/project/reactSmooth.jpg";
 import shopsy from "../images/project/shopsy.bmp";
 import usestate from "../images/project/usestate.jpg";
+import world from "../images/project/World.bmp";
+import ecommerce from "../images/project/ecomm.bmp";
 const Portfolio = () => {
   const protfolios = [
     {
@@ -87,6 +89,22 @@ content interactively on various screen sizes.`,
       linkGitHub: "https://github.com/abdo121212/Slider",
       linkLive: "https://abdo121212.github.io/Slider/",
     },
+
+    {
+      id: 7,
+      src: world,
+
+      linkGitHub: "https://github.com/abdo121212/VR-World",
+      linkLive: "https://vr-world-inky.vercel.app/",
+    },
+    
+    {
+      id: 8,
+      src: ecommerce,
+
+      linkGitHub: "https://github.com/abdo121212/E-commerce-app",
+      linkLive: "https://e-commerce-app-five-gamma.vercel.app/",
+    },
   ];
   return (
     <>
@@ -96,9 +114,12 @@ content interactively on various screen sizes.`,
       >
         <div className=" sm:text-center ">
           <p className="text-4xl font-bold border-b-4 border-cyan-400 rounded-2xl px-4 p-2 inline  max-md:text-xl">
-          portfolio
+            portfolio
           </p>
-          <p className="py-10 w-fit max-sm:text-[12px] mx-auto"> These are the technologies i've worked with</p>
+          <p className="py-10 w-fit max-sm:text-[12px] mx-auto">
+            {" "}
+            These are the technologies i've worked with
+          </p>
         </div>
 
         <div className="grid max-lg:grid-cols-2  max-lg:gap-x-10 max-md:grid-cols-1  lg:grid-cols-3 gap-10 py-3 px-10 ">
@@ -111,6 +132,7 @@ content interactively on various screen sizes.`,
               <div className="shadow-md max-w-[700px] max-h-[500px] shadow-gray-100 rounded-md duration-300 hover:scale-105">
                 <img
                   src={src}
+                  loading="lazy"
                   className="rounded-md object-contain w-full"
                   alt="Giga"
                 />
