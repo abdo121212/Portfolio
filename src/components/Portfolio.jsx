@@ -118,7 +118,7 @@ content interactively on various screen sizes.`,
           </p>
           <p className="py-10 w-fit max-sm:text-[12px] mx-auto">
             {" "}
-            These are the technologies i've worked with
+           These are the Projects i've worked
           </p>
         </div>
 
