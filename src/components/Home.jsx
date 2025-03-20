@@ -34,7 +34,7 @@ const Home = () => {
             <img
               data-aos="flip-down"
               loading="lazy"
-              src={`https://res.cloudinary.com/ddqzfqu1j/image/upload/v1737676331/giga_oshf36.jpg`}
+              src={`https://res.cloudinary.com/ddqzfqu1j/image/upload/v1741307727/WhatsApp_Image_2024-07-14_at_20.00.12_5f274665_wgicry.jpg`}
               width={400}
               height={500}
               className="object-contain rounded-3xl   max-sm:w-[200px] max-md:w-[250px] max-w-[380px]  duration-300"
