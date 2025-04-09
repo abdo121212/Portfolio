@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Almarai:wght@300&family=Bebas+Neue&family=Inter:wght@500&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+@import "tailwindcss";
+
+@layer base {
+  html {
+    font-family: "Raleway", sans-serif;
+  }
+}
+
+.active {
+  @apply bg-cyan-400  border-cyan-600 border-2  opacity-100;
+}
+
+.activeLink {
+  @apply text-gray-200;
+}
+
+.typing-text {
+  display: inline-block;
+  animation: typing 4s infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.animated-wrapper {
+  animation-name: move-wrapper;
+  animation-duration: 25s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes move-wrapper {
+  0% {
+    transform: translate(150%, 30%) rotate(0) scale(0.8);
+  }
+
+  0% {
+    transform: translate(60vw, 0) rotate(150deg) scale(1.2);
+  }
+
+  0% {
+    transform: translate(40vw, 40vh) rotate(0) scale(0.8);
+  }
+}
