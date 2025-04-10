@@ -24,14 +24,12 @@ const Portfolio = () => {
       linkGitHub: "https://github.com/abdo121212/Loading-Screen/",
       linkLive: "https://abdo121212.github.io/Loading-Screen/",
     },
-
     {
       id: 3,
       src: fitnut,
       linkGitHub: "https://github.com/abdo121212/fitunt",
       linkLive: "https://app-fitnut.netlify.app/",
     },
-
     {
       id: 4,
       src: baker,
@@ -39,7 +37,6 @@ const Portfolio = () => {
       linkGitHub: "https://github.com/abdo121212/Bakery",
       linkLive: "https://abdo121212.github.io/Bakery/",
     },
-
     {
       id: 5,
       src: weather,
@@ -54,14 +51,12 @@ const Portfolio = () => {
       linkGitHub: "https://github.com/abdo121212/shopsy",
       linkLive: "https://shopsy-giga.netlify.app/",
     },
-
     {
       id: 7,
       src: slider,
       linkGitHub: "https://github.com/abdo121212/Slider",
       linkLive: "https://abdo121212.github.io/Slider/",
     },
-
     {
       id: 8,
       src: world,
@@ -69,7 +64,6 @@ const Portfolio = () => {
       linkGitHub: "https://github.com/abdo121212/VR-World",
       linkLive: "https://vr-world-inky.vercel.app/",
     },
-
     {
       id: 9,
       src: ecommerce,
