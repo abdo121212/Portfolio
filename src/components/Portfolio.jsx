@@ -5,9 +5,7 @@ import baker from "../images/project/bakery.bmp";
 import movies from "../images/project/movies.bmp";
 import loadingScreen from "../images/project/loading.bmp";
 import slider from "../images/project/Slider.bmp";
-import reactSmooth from "../images/project/reactSmooth.jpg";
 import shopsy from "../images/project/shopsy.bmp";
-import usestate from "../images/project/usestate.jpg";
 import world from "../images/project/World.bmp";
 import ecommerce from "../images/project/ecomm.bmp";
 import todo from "../images/project/capture_20250409160442442.bmp";
@@ -15,10 +13,10 @@ const Portfolio = () => {
   const protfolios = [
     {
       id: 1,
-      src: weather,
+      src: movies,
 
-      linkGitHub: "https://github.com/abdo121212/Weather-App",
-      linkLive: "https://abdo121212.github.io/Weather-App/",
+      linkGitHub: "https://github.com/abdo121212/Movies-App",
+      linkLive: "https://movies-app-new-nine.vercel.app/",
     },
     {
       id: 2,
@@ -43,24 +41,14 @@ const Portfolio = () => {
     },
 
     {
-      id: 7,
-      src: reactSmooth,
-    },
-    {
-      id: 8,
-      src: usestate,
-    },
-
-    {
       id: 5,
-      src: movies,
+      src: weather,
 
-      linkGitHub: "https://github.com/abdo121212/Movies-App",
-      linkLive: "https://movies-app-new-nine.vercel.app/",
+      linkGitHub: "https://github.com/abdo121212/Weather-App",
+      linkLive: "https://abdo121212.github.io/Weather-App/",
     },
-
     {
-      id: 9,
+      id: 6,
       src: shopsy,
 
       linkGitHub: "https://github.com/abdo121212/shopsy",
@@ -68,14 +56,14 @@ const Portfolio = () => {
     },
 
     {
-      id: 6,
+      id: 7,
       src: slider,
       linkGitHub: "https://github.com/abdo121212/Slider",
       linkLive: "https://abdo121212.github.io/Slider/",
     },
 
     {
-      id: 7,
+      id: 8,
       src: world,
 
       linkGitHub: "https://github.com/abdo121212/VR-World",
@@ -83,14 +71,14 @@ const Portfolio = () => {
     },
 
     {
-      id: 8,
+      id: 9,
       src: ecommerce,
 
       linkGitHub: "https://github.com/abdo121212/E-commerce-app",
       linkLive: "https://e-commerce-app-five-gamma.vercel.app/",
     },
     {
-      id: 9,
+      id: 10,
       src: todo,
 
       linkGitHub: "https://github.com/abdo121212/todo-list",
@@ -124,7 +112,7 @@ const Portfolio = () => {
                 <img
                   src={src}
                   loading="lazy"
-                  className="rounded-md object-contain w-full"
+                  className="rounded-md object-contain w-[350px] h-[180px]"
                   alt="Giga"
                 />
 
