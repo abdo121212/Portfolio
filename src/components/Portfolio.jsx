@@ -10,14 +10,19 @@ import shopsy from "../images/project/shopsy.bmp";
 import usestate from "../images/project/usestate.jpg";
 import world from "../images/project/World.bmp";
 import ecommerce from "../images/project/ecomm.bmp";
+import todo from "../images/project/capture_20250409160442442.bmp";
 const Portfolio = () => {
   const protfolios = [
     {
+      id: 1,
+      src: weather,
+
+      linkGitHub: "https://github.com/abdo121212/Weather-App",
+      linkLive: "https://abdo121212.github.io/Weather-App/",
+    },
+    {
       id: 2,
       src: loadingScreen,
-      title: `I worked on a project that focused on creating a dynamic loading screen for applications. It
-features animated spinners, progress bars, and informative messages, enhancing user
-experience by providing visual feedback during content loading.`,
       linkGitHub: "https://github.com/abdo121212/Loading-Screen/",
       linkLive: "https://abdo121212.github.io/Loading-Screen/",
     },
@@ -25,9 +30,6 @@ experience by providing visual feedback during content loading.`,
     {
       id: 3,
       src: fitnut,
-      title: `I worked on a project that calculates daily calorie needs based on user data and creates
-personalized diet plans to promote healthy nutrition. Did you know that tracking calorie
-intake can significantly improve weight management and overall health`,
       linkGitHub: "https://github.com/abdo121212/fitunt",
       linkLive: "https://app-fitnut.netlify.app/",
     },
@@ -35,37 +37,24 @@ intake can significantly improve weight management and overall health`,
     {
       id: 4,
       src: baker,
-      title: `I worked on a project that displays static data for a bakery, showcasing product details,
-pricing, and descriptions, along with store locations and positions. The interface is intuitive
-for easy navigation and information accessInitiated 4 tasks using the EDF scheduler. `,
+
       linkGitHub: "https://github.com/abdo121212/Bakery",
       linkLive: "https://abdo121212.github.io/Bakery/",
     },
-    {
-      id: 1,
-      src: weather,
-      title: `I developed a weather application using React that fetches real-time weather data, displays
-      forecasts, and provides location-based weather updates with an intuitive user interface`,
-      linkGitHub: "https://github.com/abdo121212/Weather-App",
-      linkLive: "https://abdo121212.github.io/Weather-App/",
-    },
+
     {
       id: 7,
       src: reactSmooth,
-      title: `A React-based animation library that offers smooth, customizable transitions for UI elements.`,
     },
     {
       id: 8,
       src: usestate,
-      title: `useState is a hook that allows you to add state to functional components.`,
     },
 
     {
       id: 5,
       src: movies,
-      title: `• A Site that is built using React js for navigation and tailwind for styling. The site contains
-movies and tv series information that are well organized. It is fully responsive.
-`,
+
       linkGitHub: "https://github.com/abdo121212/Movies-App",
       linkLive: "https://movies-app-new-nine.vercel.app/",
     },
@@ -73,9 +62,7 @@ movies and tv series information that are well organized. It is fully responsive
     {
       id: 9,
       src: shopsy,
-      title: `I developed an e-commerce project that displays products, including details like pricing,
-descriptions, and images. The platform provides an intuitive interface for users to browse,
-search, and explore available products seamlessly.`,
+
       linkGitHub: "https://github.com/abdo121212/shopsy",
       linkLive: "https://shopsy-giga.netlify.app/",
     },
@@ -83,9 +70,6 @@ search, and explore available products seamlessly.`,
     {
       id: 6,
       src: slider,
-      title: `I created a responsive slider using HTML, CSS, and JavaScript. The slider displays images
-with smooth transitions, navigation arrows, and indicators, allowing users to browse
-content interactively on various screen sizes.`,
       linkGitHub: "https://github.com/abdo121212/Slider",
       linkLive: "https://abdo121212.github.io/Slider/",
     },
@@ -97,13 +81,20 @@ content interactively on various screen sizes.`,
       linkGitHub: "https://github.com/abdo121212/VR-World",
       linkLive: "https://vr-world-inky.vercel.app/",
     },
-    
+
     {
       id: 8,
       src: ecommerce,
 
       linkGitHub: "https://github.com/abdo121212/E-commerce-app",
       linkLive: "https://e-commerce-app-five-gamma.vercel.app/",
+    },
+    {
+      id: 9,
+      src: todo,
+
+      linkGitHub: "https://github.com/abdo121212/todo-list",
+      linkLive: "https://todo-list-smoky-phi-38.vercel.app/",
     },
   ];
   return (
@@ -123,7 +114,7 @@ content interactively on various screen sizes.`,
         </div>
 
         <div className="grid max-lg:grid-cols-2  max-lg:gap-x-10 max-md:grid-cols-1  lg:grid-cols-3 gap-10 py-3 px-10 ">
-          {protfolios.map(({ id, src, linkGitHub, linkLive, title }) => (
+          {protfolios.map(({ id, src, linkGitHub, linkLive }) => (
             <div
               key={id}
               data-aos="zoom-up"
