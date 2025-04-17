@@ -1,79 +1,70 @@
 import React from "react";
-import fitnut from "../images/project/fitnut.bmp";
-import weather from "../images/project/reactWeather.jpg";
-import baker from "../images/project/bakery.bmp";
-import movies from "../images/project/movies.bmp";
-import loadingScreen from "../images/project/loading.bmp";
-import slider from "../images/project/Slider.bmp";
-import shopsy from "../images/project/shopsy.bmp";
-import world from "../images/project/World.bmp";
-import ecommerce from "../images/project/ecomm.bmp";
-import todo from "../images/project/capture_20250409160442442.bmp";
+
 const Portfolio = () => {
-  const protfolios = [
+  const portfolios = [
     {
       id: 1,
-      src: movies,
+      src: "https://res.cloudinary.com/ddqzfqu1j/image/upload/v1741307505/movies_upjbe5.bmp",
 
       linkGitHub: "https://github.com/abdo121212/Movies-App",
       linkLive: "https://movies-app-new-nine.vercel.app/",
     },
     {
       id: 2,
-      src: loadingScreen,
+      src: "https://res.cloudinary.com/ddqzfqu1j/image/upload/v1741307506/loading_lvmr82.bmp",
       linkGitHub: "https://github.com/abdo121212/Loading-Screen/",
       linkLive: "https://abdo121212.github.io/Loading-Screen/",
     },
     {
       id: 3,
-      src: fitnut,
+      src: "https://res.cloudinary.com/ddqzfqu1j/image/upload/v1741307504/fitnut_fgqb3s.bmp",
       linkGitHub: "https://github.com/abdo121212/fitunt",
       linkLive: "https://app-fitnut.netlify.app/",
     },
     {
       id: 4,
-      src: baker,
+      src: "https://res.cloudinary.com/ddqzfqu1j/image/upload/v1741307505/bakery_kipfqn.bmp",
 
       linkGitHub: "https://github.com/abdo121212/Bakery",
       linkLive: "https://abdo121212.github.io/Bakery/",
     },
     {
       id: 5,
-      src: weather,
+      src: "https://res.cloudinary.com/ddqzfqu1j/image/upload/v1741307370/reactWeather_snfoy2.jpg",
 
       linkGitHub: "https://github.com/abdo121212/Weather-App",
       linkLive: "https://abdo121212.github.io/Weather-App/",
     },
     {
       id: 6,
-      src: shopsy,
+      src: "https://res.cloudinary.com/ddqzfqu1j/image/upload/v1741307573/shopsy_ozqgfm.bmp",
 
       linkGitHub: "https://github.com/abdo121212/shopsy",
       linkLive: "https://shopsy-giga.netlify.app/",
     },
     {
       id: 7,
-      src: slider,
+      src: "https://res.cloudinary.com/ddqzfqu1j/image/upload/v1741307516/Slider_uyruuu.bmp",
       linkGitHub: "https://github.com/abdo121212/Slider",
       linkLive: "https://abdo121212.github.io/Slider/",
     },
     {
       id: 8,
-      src: world,
+      src: "https://res.cloudinary.com/ddqzfqu1j/image/upload/v1741307613/World_prwp06.bmp",
 
       linkGitHub: "https://github.com/abdo121212/VR-World",
       linkLive: "https://vr-world-inky.vercel.app/",
     },
     {
       id: 9,
-      src: ecommerce,
+      src: "https://res.cloudinary.com/ddqzfqu1j/image/upload/v1741307498/ecomm_wcaydq.bmp",
 
       linkGitHub: "https://github.com/abdo121212/E-commerce-app",
       linkLive: "https://e-commerce-app-five-gamma.vercel.app/",
     },
     {
       id: 10,
-      src: todo,
+      src: "https://res.cloudinary.com/ddqzfqu1j/image/upload/v1744902918/capture_20250409160207324_oqhoox.bmp",
 
       linkGitHub: "https://github.com/abdo121212/todo-list",
       linkLive: "https://todo-list-smoky-phi-38.vercel.app/",
@@ -95,14 +86,14 @@ const Portfolio = () => {
           </p>
         </div>
 
-        <div className="grid max-lg:grid-cols-2  max-lg:gap-x-10 max-md:grid-cols-1  lg:grid-cols-3 gap-10 py-3 px-10 ">
-          {protfolios.map(({ id, src, linkGitHub, linkLive }) => (
+        <div className="grid max-lg:grid-cols-2  max-lg:gap-x-10 max-md:grid-cols-1  lg:grid-cols-3 gap-10  py-3 px-10  ">
+          {portfolios.map(({ id, src, linkGitHub, linkLive }) => (
             <div
               key={id}
               data-aos="zoom-up"
               className="flex justify-center items-center"
             >
-              <div className="shadow-md max-w-[700px] max-h-[500px] shadow-gray-100 rounded-md duration-300 hover:scale-105">
+              <div className="shadow-md max-w-[700px] max-h-[500px] shadow-gray-100 rounded-md duration-300 hover:scale-105 ">
                 <img
                   src={src}
                   loading="lazy"
