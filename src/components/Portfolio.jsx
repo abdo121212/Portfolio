@@ -69,6 +69,18 @@ const Portfolio = () => {
       linkGitHub: "https://github.com/abdo121212/todo-list",
       linkLive: "https://todo-list-smoky-phi-38.vercel.app/",
     },
+    {
+      id: 11,
+      src: "https://res.cloudinary.com/ddqzfqu1j/image/upload/v1744918180/capture_20250417212041260_t4llsw.bmp",
+      linkGitHub: "https://github.com/abdo121212/Create-Products",
+      linkLive: "https://createpro.netlify.app/",
+    },
+    {
+      id: 12,
+      src: "https://res.cloudinary.com/ddqzfqu1j/image/upload/v1745975299/capture_20250430040455852_hycnzi.png",
+      linkGitHub: "https://github.com/abdo121212/Travel",
+      linkLive: "https://travel-giga.netlify.app/",
+    },
   ];
   return (
     <>
@@ -98,7 +110,7 @@ const Portfolio = () => {
                   src={src}
                   loading="lazy"
                   className="rounded-md object-contain w-[350px] h-[180px]"
-                  alt="Giga"
+                  alt="image for products"
                 />
 
                 <div className="py-3 px-5 flex flex-col">

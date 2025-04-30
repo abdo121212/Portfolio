@@ -52,7 +52,7 @@ const Contact = () => {
             ></textarea>
             <button
               data-aos="fade-up"
-              className="bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 rounded-md text-white my-8 hover:scale-110 duration-300 mx-auto flex items-center"
+              className="bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 rounded-md text-white my-8 hover:scale-105 transition duration-700 ease-in-out  mx-auto flex items-center"
             >
               let's talk
             </button>
@@ -62,28 +62,28 @@ const Contact = () => {
         <div className="flex flex-col items-center justify-center space-y-4 py-10  w-1/4 max-md:w-full">
           <div
             data-aos="fade-up"
-            className="bg-gray-800 hover:bg-[#1c3852] hover:border duration-500 w-[300px] hover:scale-110 h-[200px] border-none space-y-3 rounded-xl flex justify-center items-center flex-col"
+            className="bg-gray-800 hover:bg-[#1c3852] hover:border   w-[300px] hover:scale-105 h-[200px] border-none space-y-3 rounded-xl flex justify-center items-center flex-col "
           >
             <FaMailBulk size={30} className="text-white justify-center " />
             <h4 className="font-bold text-xl">Email</h4>
             <a
               href="mailto:atfbdallh147@gmail.com"
               target="blank"
-              className="duration-700 hover:scale-110 hover:font-bold hover:text-teal-400"
+              className="duration-700 hover:scale-105 hover:font-bold hover:text-teal-400"
             >
               Send a message
             </a>
           </div>
           <div
             data-aos="fade-up"
-            className="bg-gray-800 hover:bg-[#1c3852] hover:border duration-500 w-[300px] hover:scale-110 h-[200px] border-none space-y-3 rounded-xl flex justify-center items-center flex-col"
+            className="bg-gray-800 hover:bg-[#1c3852] hover:border   w-[300px] hover:scale-105 h-[200px] border-none space-y-3 rounded-xl flex justify-center items-center flex-col  "
           >
             <FaWhatsapp size={30} className="text-white justify-center " />
             <h4 className="font-bold text-xl">WhatsApp</h4>
             <a
               href="https://api.whatsapp.com/send?phone=+201067580075"
               target="blank"
-              className="duration-500 hover:scale-110 hover:font-bold hover:text-teal-400"
+              className=" hover:scale-105 hover:font-bold hover:text-teal-400 "
             >
               Send a message
             </a>

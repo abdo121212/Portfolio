@@ -17,7 +17,7 @@ const Navbar = () => {
     <>
       <div className="fixed w-full z-[555]">
         <div className="flex justify-between items-center  h-16 px-4 text-white bg-gradient-to-bl from-black to-gray-800 z-50 py-3">
-          <h1 data-aos="fade-up" className="text-4xl ml-2 cursor-pointer">
+          <h1 data-aos="fade-up" className="text-4xl ml-2 cursor-pointer select-none">
             A̷b̷d̷a̷l̷l̷a̷h̷
           </h1>
           <ul className="hidden md:flex">
