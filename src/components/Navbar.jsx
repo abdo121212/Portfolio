@@ -20,12 +20,12 @@ const Navbar = () => {
           <h1 data-aos="fade-up" className="text-4xl ml-2 cursor-pointer select-none">
             A̷b̷d̷a̷l̷l̷a̷h̷
           </h1>
-          <ul className="hidden md:flex">
+          <ul className="hidden md:flex space-x-4">
             {links.map(({ id, link }) => (
               <li
                 data-aos="fade-right"
                 key={id}
-                className={`px-4 cursor-pointer capitalize text-gray-500 font-medium hover:text-gray-200 hover:scale-105`}
+                className={`  cursor-pointer capitalize text-gray-500 font-medium hover:text-gray-200 hover:scale-105`}
               >
                 <Link
                   onClick={() => {
@@ -34,7 +34,7 @@ const Navbar = () => {
                   to={link}
                   smooth
                   duration={500}
-                  className={`duration-700  ${
+                  className={`duration-200   ${
                     activeLink === link ? "activeLink" : ""
                   }`}
                 >

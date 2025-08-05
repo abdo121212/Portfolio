@@ -257,8 +257,8 @@ const About = () => {
             </p>
           </div>
 
-          <div className="flex justify-center items-cneter gap-5 max-md:space-y-5  max-md:flex-col">
-            <div className="w-[40%] max-md:w-full flex justify-start items-stjustify-start  flex-col">
+          <div className="flex justify-center  gap-5 max-md:space-y-5  max-md:flex-col">
+            <div className="w-[40%] max-md:w-full flex justify-start   flex-col">
               <h4 className="text-3xl font-medium py-4 w-full text-center">
                 Why hire me ?{" "}
               </h4>

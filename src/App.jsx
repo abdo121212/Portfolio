@@ -12,14 +12,13 @@ function App() {
   useEffect(() => {
     AOS.init({
       offset: 100,
-      duration: 1000,
+      duration: 500,
       easing: "ease-in-sine",
-      delay: 300,
+      delay: 200,
     });
     AOS.refresh();
   }, []);
 
-  AOS;
   return (
     <>
       <Navbar />

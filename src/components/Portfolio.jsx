@@ -1,5 +1,3 @@
-import React from "react";
-
 const Portfolio = () => {
   const portfolios = [
     {
@@ -60,7 +58,7 @@ const Portfolio = () => {
       src: "https://res.cloudinary.com/ddqzfqu1j/image/upload/v1741307498/ecomm_wcaydq.bmp",
 
       linkGitHub: "https://github.com/abdo121212/E-commerce-app",
-      linkLive: "https://e-commerce-app-five-gamma.vercel.app/",
+      linkLive: "f",
     },
     {
       id: 10,
@@ -107,10 +105,11 @@ const Portfolio = () => {
             >
               <div className="shadow-md max-w-[700px] max-h-[500px] shadow-gray-100 rounded-md duration-300 hover:scale-105 ">
                 <img
-                  src={src}
                   loading="lazy"
+                  fetchPriority="high"
+                  src={src}
                   className="rounded-md object-contain w-[350px] h-[180px]"
-                  alt="image for products"
+                  alt="image for product"
                 />
 
                 <div className="py-3 px-5 flex flex-col">

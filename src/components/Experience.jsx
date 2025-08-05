@@ -1,4 +1,3 @@
-import React from "react";
 import html from "../images/html.png";
 import js from "../images/javascript.png";
 import github from "../images/github.png";
@@ -46,7 +45,7 @@ const Experience = () => {
               key={id}
               className={`shadow-md hover:scale-105 duration-500 py-2 rounded-md ${style}`}
             >
-              <img className="w-20 mx-auto" src={src} alt="" />
+              <img className="w-20 mx-auto" src={src} loading="lazy" alt={title} />
               <p className="mt-4">{title}</p>
             </div>
           ))}
