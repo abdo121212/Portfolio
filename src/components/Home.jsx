@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { MdArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 import ScrollUp from "./ScrollUp";
-import myImage from "../assets/WhatsApp_Image_2024-07-14_at_20.00.12_5f274665_50-min.jpg";
+import myImage from "../assets/WhatsApp_Image_2024-07-14_at_20.00.12_5f274665_50-min-converted-from-jpg.webp";
 const Home = () => {
   const [showButton, setShowButton] = useState(false);
 
