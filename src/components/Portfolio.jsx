@@ -105,7 +105,6 @@ const Portfolio = () => {
             >
               <div className="shadow-md max-w-[700px] max-h-[500px] shadow-gray-100 rounded-md duration-300 hover:scale-105 ">
                 <img
-                  loading="lazy"
                   fetchPriority="high"
                   src={src}
                   className="rounded-md object-contain w-[350px] h-[180px]"
