@@ -2,80 +2,80 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: "https://res.cloudinary.com/ddqzfqu1j/image/upload/v1741307505/movies_upjbe5.bmp",
+      src: "https://res.cloudinary.com/ddqzfqu1j/image/upload/v1754430219/movies_w9kyhm.webp",
 
       linkGitHub: "https://github.com/abdo121212/Movies-App",
       linkLive: "https://movies-app-new-nine.vercel.app/",
     },
     {
       id: 2,
-      src: "https://res.cloudinary.com/ddqzfqu1j/image/upload/v1741307506/loading_lvmr82.bmp",
+      src: "https://res.cloudinary.com/ddqzfqu1j/image/upload/v1754430219/loading_fy2lwd.webp",
       linkGitHub: "https://github.com/abdo121212/Loading-Screen/",
       linkLive: "https://abdo121212.github.io/Loading-Screen/",
     },
     {
       id: 3,
-      src: "https://res.cloudinary.com/ddqzfqu1j/image/upload/v1741307504/fitnut_fgqb3s.bmp",
+      src: "https://res.cloudinary.com/ddqzfqu1j/image/upload/v1754430219/fit_izc7vi.webp",
       linkGitHub: "https://github.com/abdo121212/fitunt",
       linkLive: "https://app-fitnut.netlify.app/",
     },
     {
       id: 4,
-      src: "https://res.cloudinary.com/ddqzfqu1j/image/upload/v1741307505/bakery_kipfqn.bmp",
+      src: "https://res.cloudinary.com/ddqzfqu1j/image/upload/v1754430216/family_cp85sj.webp",
 
       linkGitHub: "https://github.com/abdo121212/Bakery",
       linkLive: "https://abdo121212.github.io/Bakery/",
     },
     {
       id: 5,
-      src: "https://res.cloudinary.com/ddqzfqu1j/image/upload/v1741307370/reactWeather_snfoy2.jpg",
+      src: "https://res.cloudinary.com/ddqzfqu1j/image/upload/v1754430219/weather_gjywkg.webp",
 
       linkGitHub: "https://github.com/abdo121212/Weather-App",
       linkLive: "https://abdo121212.github.io/Weather-App/",
     },
     {
       id: 6,
-      src: "https://res.cloudinary.com/ddqzfqu1j/image/upload/v1741307573/shopsy_ozqgfm.bmp",
+      src: "https://res.cloudinary.com/ddqzfqu1j/image/upload/v1754430217/woman2_kd9kdf.webp",
 
       linkGitHub: "https://github.com/abdo121212/shopsy",
       linkLive: "https://shopsy-giga.netlify.app/",
     },
     {
       id: 7,
-      src: "https://res.cloudinary.com/ddqzfqu1j/image/upload/v1741307516/Slider_uyruuu.bmp",
+      src: "https://res.cloudinary.com/ddqzfqu1j/image/upload/v1754430216/slider_kfc2dt.webp",
       linkGitHub: "https://github.com/abdo121212/Slider",
       linkLive: "https://abdo121212.github.io/Slider/",
     },
     {
       id: 8,
-      src: "https://res.cloudinary.com/ddqzfqu1j/image/upload/v1741307613/World_prwp06.bmp",
+      src: "https://res.cloudinary.com/ddqzfqu1j/image/upload/v1754430219/world_iqo9tk.webp",
 
       linkGitHub: "https://github.com/abdo121212/VR-World",
       linkLive: "https://vr-world-inky.vercel.app/",
     },
     {
       id: 9,
-      src: "https://res.cloudinary.com/ddqzfqu1j/image/upload/v1741307498/ecomm_wcaydq.bmp",
+      src: "https://res.cloudinary.com/ddqzfqu1j/image/upload/v1754430218/woman_xocdzq.webp",
 
       linkGitHub: "https://github.com/abdo121212/E-commerce-app",
       linkLive: "f",
     },
     {
       id: 10,
-      src: "https://res.cloudinary.com/ddqzfqu1j/image/upload/v1744902918/capture_20250409160207324_oqhoox.bmp",
+      src: "https://res.cloudinary.com/ddqzfqu1j/image/upload/v1754430216/todo_list_jtklol.webp",
 
       linkGitHub: "https://github.com/abdo121212/todo-list",
       linkLive: "https://todo-list-smoky-phi-38.vercel.app/",
     },
     {
       id: 11,
-      src: "https://res.cloudinary.com/ddqzfqu1j/image/upload/v1744918180/capture_20250417212041260_t4llsw.bmp",
+      src: "https://res.cloudinary.com/ddqzfqu1j/image/upload/v1754430219/addProdcuts_w2qszg.webp",
       linkGitHub: "https://github.com/abdo121212/Create-Products",
       linkLive: "https://createpro.netlify.app/",
     },
     {
       id: 12,
-      src: "https://res.cloudinary.com/ddqzfqu1j/image/upload/v1745975299/capture_20250430040455852_hycnzi.png",
+      src: "https://res.cloudinary.com/ddqzfqu1j/image/upload/v1754430221/treavl_hubddx.webp",
       linkGitHub: "https://github.com/abdo121212/Travel",
       linkLive: "https://travel-giga.netlify.app/",
     },
