@@ -79,6 +79,20 @@ const Portfolio = () => {
       linkGitHub: "https://github.com/abdo121212/Travel",
       linkLive: "https://travel-giga.netlify.app/",
     },
+
+    {
+      id: 13,
+      src: "https://res.cloudinary.com/ddqzfqu1j/image/upload/v1754506719/capture_20250806214629502-converted-from-bmp_yyibye.jpg",
+      linkGitHub: "https://github.com/abdo121212/new-ecommerce",
+      linkLive: "https://newecommerce4.netlify.app/",
+    },
+
+    {
+      id: 14,
+      src: "https://res.cloudinary.com/ddqzfqu1j/image/upload/v1754506441/capture_20250806213656903-converted-from-bmp_lvfwkl.webp",
+      linkGitHub: "https://github.com/abdo121212/Calculator",
+      linkLive: "https://calculatorappliction.netlify.app/",
+    },
   ];
   return (
     <>
