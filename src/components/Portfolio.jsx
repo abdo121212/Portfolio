@@ -58,7 +58,7 @@ const Portfolio = () => {
       src: "https://res.cloudinary.com/ddqzfqu1j/image/upload/v1754430218/woman_xocdzq.webp",
 
       linkGitHub: "https://github.com/abdo121212/E-commerce-app",
-      linkLive: "f",
+      linkLive: "e-commerce-app-five-gamma.vercel.app",
     },
     {
       id: 10,
