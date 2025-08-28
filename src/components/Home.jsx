@@ -36,7 +36,7 @@ const Home = () => {
         <div className="flex justify-center items-center h-full max-md:flex-col-reverse max-md:gap-6 ">
           <div className="flex flex-col justify-center items-center space-y-6 w-1/2">
             <h1
-              className="font-bold text-2xl md:text-3xl lg:text-4xl  animate-bounce  max-md:text-center"
+              className="font-bold text-2xl md:text-3xl lg:text-4xl  animate-pulse  max-md:text-center"
               data-aos="fade-up"
             >
               I'm a Front-End Developer
